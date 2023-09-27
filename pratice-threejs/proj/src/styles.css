@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#writing-tg{
+
+    z-index: 0;
+    top: 20%;
+    bottom: 50%;
+    left: 30%;
+    right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+
+ max-width: auto;
+    position: absolute;
+}
+#writing-tg h1{
+    font-size: 60px;
+
+   
+    color: antiquewhite;
+}
+
+
+#text-button  {
+
+border: 1px solid whitesmoke;
+border-radius: 15px;
+margin-left: 35%;
+display: inline-block;
+
+}
+
+
+
+#text-button:hover {
+    background-color: aqua;
+}
+
+
+#text-button  p{
+
+    margin: 0%;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+#canva-mainSCR {
+
+z-index: -1;
+
+}
